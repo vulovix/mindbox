@@ -1,0 +1,75 @@
+{
+  "Home": {
+    "home_link": "Accueil",
+    "about_link": "A propos",
+    "guestbook_link": "Livre d'or",
+    "portfolio_link": "Portfolio",
+    "sign_in_link": "Se connecter",
+    "sign_up_link": "S'inscrire"
+  },
+  "Sidebar": {
+    "Menu": "Menu",
+    "Discover": "Discover",
+    "Trending": "Trending",
+    "Streaming": "Streaming",
+    "News": "News",
+    "Blog": "Blog",
+    "Music": "Music",
+    "Gallery": "Gallery",
+    "Wishlist": "Wishlist",
+    "Bookmarks": "Bookmarks",
+    "Handcrafted": "Handcrafted",
+    "Applications": "Apps",
+    "Account": "Account",
+    "Community": "Community",
+    "Jobs": "Jobs",
+    "Earn": "Earn",
+    "SignIn": "Sign In",
+    "SignOut": "Sign Out"
+  },
+  "Trending": {
+    "title": "Trending",
+    "meta_title": "meta_title",
+    "meta_description": "meta_description"
+  },
+  "Community": {
+    "title": "Community",
+    "meta_title": "meta_title",
+    "meta_description": "meta_description"
+  },
+  "Blog": {
+    "title": "Blog",
+    "meta_title": "meta_title",
+    "meta_description": "meta_description"
+  },
+  "Music": {
+    "title": "Music",
+    "meta_title": "meta_title",
+    "meta_description": "meta_description"
+  },
+  "Gallery": {
+    "title": "Gallery",
+    "meta_title": "meta_title",
+    "meta_description": "meta_description"
+  },
+  "Wishlist": {
+    "title": "Wishlist",
+    "meta_title": "meta_title",
+    "meta_description": "meta_description"
+  },
+  "Bookmarks": {
+    "title": "Bookmarks",
+    "meta_title": "meta_title",
+    "meta_description": "meta_description"
+  },
+  "Earn": {
+    "title": "Earn",
+    "meta_title": "meta_title",
+    "meta_description": "meta_description"
+  },
+  "Auth": {
+    "title": "Auth",
+    "meta_title": "meta_title",
+    "meta_description": "meta_description"
+  }
+}

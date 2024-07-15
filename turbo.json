@@ -1,0 +1,56 @@
+{
+  "$schema": "https://turborepo.org/schema.json",
+  "globalEnv": [
+    "NODE_ENV",
+    "ANALYZE",
+    "DOCS_URL",
+    "NEXT_PHASE",
+    "DATABASE_URL",
+    "MAINTENANCE_MODE",
+    "CLERK_SECRET_KEY",
+    "NEXT_PUBLIC_APP_URL",
+    "NEXT_PUBLIC_CLERK_SIGN_IN_URL",
+    "NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY"
+  ],
+  "tasks": {
+    "build": {
+      "dependsOn": [
+        "^build"
+      ],
+      "outputs": [
+        ".next/**",
+        "!.next/cache/**",
+        "dist/**",
+        "storybook-static/**"
+      ]
+    },
+    "main#build": {
+      "dependsOn": [
+        "^build",
+        "$DOCS_URL"
+      ],
+      "outputs": [
+        ".next/**",
+        "!.next/cache/**"
+      ]
+    },
+    "test": {
+      "dependsOn": [
+        "^build"
+      ],
+      "outputs": []
+    },
+    "lint": {
+      "outputs": []
+    },
+    "dev": {
+      "cache": false
+    },
+    "start": {
+      "cache": false
+    },
+    "clean": {
+      "cache": false
+    }
+  }
+}

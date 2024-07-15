@@ -1,0 +1,75 @@
+.note-details {
+    color: inherit;
+    line-height: 1.6;
+    text-wrap: pretty;
+    font-weight: normal;
+    font-size: var(--font-size-normal);
+
+    &.preview {
+        height: 100%;
+
+        white-space: pre-line;
+        text-wrap: pretty;
+
+        a {
+            color: var(--body-color);
+            text-decoration: none;
+            border-bottom: 1px dashed;
+
+            &:hover {
+                color: inherit;
+            }
+        }
+
+        table {
+            min-width: 100%;
+            margin: 0 auto;
+            // border-collapse: collapse;
+
+            thead {
+                background-color: var(--color-button-background);
+            }
+
+            td,
+            th {
+                padding: 0.25rem;
+            }
+
+            tbody {
+                tr:hover {
+                    background-color: var(--border-color);
+                }
+            }
+
+        }
+    }
+
+
+    &.editable {
+        font-family: inherit;
+        background: inherit;
+        border: inherit;
+        width: 100%;
+        resize: vertical;
+        height: calc(100vh - 29px - 43px - 0.5rem - 1rem - 38px);
+        // padding-bottom: 0.5rem;
+        // margin-bottom: 0.5rem;
+        outline: none;
+        // border-bottom: 1px solid var(--border-color);
+    }
+
+    &.preview,
+    &.editable {
+        overflow: auto;
+    }
+
+    @media screen and (max-width: 1090px) {
+        font-size: var(--font-size-medium);
+    }
+
+    @media screen and (max-width: 480px) {
+        font-size: var(--font-size-small);
+        line-height: 1.5;
+    }
+
+}

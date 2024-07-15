@@ -1,0 +1,19 @@
+{
+  "name": "eslint-config-acme",
+  "version": "0.0.1",
+  "repository": "https://github.com/vercel/examples.git",
+  "license": "MIT",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-next": "canary",
+    "eslint-config-prettier": "^8.10.0",
+    "eslint-config-turbo": "latest"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}

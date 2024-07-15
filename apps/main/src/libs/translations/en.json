@@ -1,0 +1,90 @@
+{
+  "Home": {
+    "home_link": "Home",
+    "about_link": "About",
+    "guestbook_link": "Guestbook",
+    "portfolio_link": "Portfolio",
+    "sign_in_link": "Sign in",
+    "sign_up_link": "Sign up"
+  },
+  "Sidebar": {
+    "Menu": "Menu",
+    "Discover": "Discover",
+    "Trending": "Trending",
+    "Streaming": "Streaming",
+    "News": "News",
+    "Blog": "Blog",
+    "Notes": "Notes",
+    "Music": "Music",
+    "Gallery": "Gallery",
+    "Wishlist": "Wishlist",
+    "Bookmarks": "Bookmarks",
+    "Handcrafted": "Handcrafted",
+    "Applications": "Apps",
+    "Account": "Account",
+    "Community": "Community",
+    "Jobs": "Jobs",
+    "Earn": "Earn",
+    "SignIn": "Sign In",
+    "SignOut": "Sign Out"
+  },
+  "Notifications": {
+    "NoFilter": "It appears that there are currently no filters available.",
+    "NoData": "There's nothing to display here yet."
+  },
+  "Notes": {
+    "title": "Notes",
+    "meta_title": "Notes",
+    "meta_description": "Notes"
+  },
+  "Discover": {
+    "title": "Discover",
+    "meta_title": "Discover",
+    "meta_description": "Discover"
+  },
+  "Trending": {
+    "title": "Trending",
+    "meta_title": "meta_title",
+    "meta_description": "meta_description"
+  },
+  "Community": {
+    "title": "Community",
+    "meta_title": "meta_title",
+    "meta_description": "meta_description"
+  },
+  "Blog": {
+    "title": "Blog",
+    "meta_title": "meta_title",
+    "meta_description": "meta_description"
+  },
+  "Music": {
+    "title": "Music",
+    "meta_title": "meta_title",
+    "meta_description": "meta_description"
+  },
+  "Gallery": {
+    "title": "Gallery",
+    "meta_title": "meta_title",
+    "meta_description": "meta_description"
+  },
+  "Wishlist": {
+    "title": "Wishlist",
+    "meta_title": "meta_title",
+    "meta_description": "meta_description"
+  },
+  "Bookmarks": {
+    "title": "Bookmarks",
+    "meta_title": "meta_title",
+    "meta_description": "meta_description"
+  },
+  "Earn": {
+    "title": "Earn",
+    "meta_title": "meta_title",
+    "meta_description": "meta_description"
+  },
+  "Auth": {
+    "title": "Auth",
+    "meta_title": "meta_title",
+    "meta_description": "meta_description"
+  }
+}

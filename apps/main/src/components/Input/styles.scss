@@ -1,0 +1,10 @@
+.input {
+    border: none;
+    border-bottom: 1px solid var(--border-color);
+    padding: 0.75rem 0.5rem;
+    border-radius: 4px;
+    outline: none;
+    // outline: 2px solid var(--color-default);
+    color: inherit;
+    background-color: transparent; // var(--color-panel-background);
+}

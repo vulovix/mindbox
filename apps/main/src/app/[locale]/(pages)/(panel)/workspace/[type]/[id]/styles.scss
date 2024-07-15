@@ -1,0 +1,31 @@
+.workspace-note {
+    max-width: 840px;
+    margin: 0 auto;
+    width: 100%;
+
+    .note-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+
+        .note-control {
+            padding: 1rem 0.75rem;
+
+            svg {
+                transform: scale(1.5) !important;
+            }
+
+            &:hover {
+                background-color: unset;
+            }
+
+        }
+    }
+
+    .note-title {
+        font-size: 2rem;
+        // font-weight: 600;
+        outline: none;
+    }
+}
